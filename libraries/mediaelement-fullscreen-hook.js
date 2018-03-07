@@ -1,6 +1,6 @@
 define([
     'core/js/adapt',
-    'libraries/mediaelement-and-player'
+    'libraries/mediaelement-and-player-wms'
 ], function(Adapt) {
     var mepPrototype = $.extend({}, mejs.MediaElementPlayer.prototype);
 
